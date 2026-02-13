@@ -1,0 +1,40 @@
+# Python cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+
+venv/
+env/
+
+# Environment variables
+.env
+
+
+
+staticfiles/
+
+# Migrations except __init__.py
+**/migrations/*
+!**/migrations/__init__.py
+
+# SQLite database
+db.sqlite3
+
+# VS Code/
+
+app.log
+
+celerybeat-schedule*
+
+docs/
+results/
+Logs/management/
+
+tests/
+server.logs
+DEPLOYMENT_INSTRUCTIONS.md
+MANUAL_STREAK_NOTIFICATION_RECOVERY.md
+temp_auto_push.bat
+temp_interactive_push.bat
+.gitignore
+branch_structure.json
